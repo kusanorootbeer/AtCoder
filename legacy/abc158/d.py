@@ -20,7 +20,8 @@ def main():
             else:
                 S.append(c)
     if flag:
-        print("".join(S))
+        S.reverse()
+    print("".join(S))
 
 
 if __name__ == '__main__':
