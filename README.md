@@ -1,3 +1,3 @@
-# python3_training
+# Atcoder
 ## AtCoder Contest log
 https://atcoder.jp/users/kusanorootbeer
