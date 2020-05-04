@@ -16,7 +16,7 @@ def main():
             return
         else:
             # 現時点から選べる選択肢の列挙と探索
-            nexts = listup_next(l[-1], M=M)
+            nexts = listup_next(l, M=M)
             for x in nexts:
                 dfs(l+[x], N=N, M=M, ABCD=ABCD)
 
@@ -32,8 +32,8 @@ def main():
                 s += d
         return s
 
-    def listup_next(now, **kwargs):
-        m = now
+    def listup_next(l, **kwargs):
+        m = l[-1]
         M = kwargs['M']
         return range(m, M+1)
 
