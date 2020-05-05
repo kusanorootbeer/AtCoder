@@ -43,7 +43,7 @@ def main():
     cost = [1, 2, 1, 3, 3]
     starts = [0, 0, 1, 2, 2]
     nexts = [1, 2, 3, 0, 3]
-    csr = csr_matrix((cost, (starts, nexts)))
+    csr = csr_matrix((cost, (starts, nexts)), shape=(5, 5))
     print(csr)
 
 
