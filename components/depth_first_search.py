@@ -9,6 +9,8 @@ def main():
 
 
 def dfs(l, **kwargs):
+    # var = kwargs['var']
+
     # 末端まで探索したか判定
     if judge_end():
         global score
