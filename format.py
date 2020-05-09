@@ -6,7 +6,7 @@ def main():
     N, K = map(int, input().split())
     A = list(map(int, input().split()))
     X = [list(map(int, input().split())) for i in range(N)]
-    S = list(input())
+    S = list(input().rsplit()[0])
 
 
 if __name__ == "__main__":
