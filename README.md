@@ -4,6 +4,6 @@
 
 https://atcoder.jp/users/kusanorootbeer
 
-## My
+## My snipet
 
-    cat format.py >> abc/{a,b,c,d}.py
+    cat format.py >> abc/{a..d}.py
