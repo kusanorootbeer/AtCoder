@@ -6,4 +6,6 @@ https://atcoder.jp/users/kusanorootbeer
 
 ## My snipet
 
-    cat format.py >> abc/{a..d}.py
+    python startup.py -n abcXXX -q N
+
+`abcXXX/`に N 個の file をつくる
